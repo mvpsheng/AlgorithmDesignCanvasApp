@@ -1,0 +1,87 @@
+.canvasPage{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainContent{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tagsArea {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  left: 900px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: chocolate;
+}
+.header{
+    display: flex;
+    border: 1px solid black;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 10px;
+    background-color: brown;
+    position: fixed; 
+    top: 0; left: 0; right: 0;
+}
+
+.addCanvasBtn {
+  
+}
+
+.canvas {
+  
+    border: 1px solid black;
+    display: flex;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 60px;
+    
+}
+
+.canvasName{
+}
+
+.canvasDesc{
+  
+}
+
+.canvasTag{
+  
+}
+
+.editCanvas{
+  margin-top:60px;
+   display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 30px;
+  height: fit-content;
+}
+
+.canvasPage{
+  border: 1px solid #d61284;
+  margin-top: 60px;
+}
+
+.canvasPageHeader{
+  border: 1px solid black;
+}
+
+.canvasPageMainContent {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+}
