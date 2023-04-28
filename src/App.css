@@ -1,87 +1,66 @@
-.canvasPage{
-  display: flex;
+.homePage{
+  /* display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
+  display: grid;
+  grid-template-rows: 50px 1fr;
 }
 
 .mainContent{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* border: 1px solid black; */
+  margin-top: 60px;
+  grid-row: 1 / span 2;
 }
 
-.tagsArea {
-  margin-top: 60px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  position: fixed;
-  left: 900px;
-  width: 200px;
-  border: 1px solid black;
-  background-color: chocolate;
-}
+
 .header{
     display: flex;
-    border: 1px solid black;
     height: 50px;
     align-items: center;
     justify-content: space-between;
     padding-right: 30px;
     padding-left: 10px;
-    background-color: brown;
     position: fixed; 
     top: 0; left: 0; right: 0;
+    z-index: 1;
+    background-color: lightsteelblue;
 }
 
-.addCanvasBtn {
-  
-}
-
-.canvas {
-  
-    border: 1px solid black;
-    display: flex;
-    width: 600px;
-    height: 300px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-top: 60px;
-    
-}
-
-.canvasName{
-}
-
-.canvasDesc{
-  
-}
-
-.canvasTag{
-  
-}
-
-.editCanvas{
-  margin-top:60px;
-   display: flex;
-  border: 1px solid black;
-  flex-direction: column;
-  width: 300px;
-  margin-left: 30px;
-  height: fit-content;
-}
-
-.canvasPage{
-  border: 1px solid #d61284;
-  margin-top: 60px;
-}
-
-.canvasPageHeader{
-  border: 1px solid black;
-}
-
-.canvasPageMainContent {
+.searchArea {
   display: flex;
-  border: 1px solid black;
+}
+
+.cardLists {
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  
+}
+.cardArea {
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.cardDetailArea {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  border: 1px solid black;
+}
+.canvasPage{
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.canvasTitleBar {
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.canvasMainForm {
+
+  border: 1px solid black;
 }
